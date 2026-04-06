@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Retro</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Retro Arcade</h1>
+        </header>
+    </div>
+
+    <div class="cuadro">
+        <h2>Trailers de Antaño</h2>
+
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <video autoplay muted loop src="Videos/MarioGalaxy.mp4"></video>
+        <video autoplay muted loop src="Videos/DonkeyKong.mp4"></video>
+
+    </div>
+    <div class="cuadro">
+        <h2>Nuestros Productos</h2>
+        <img src="Imagenes/Nintendo64.png" alt="N64">
+        <img src="Imagenes/NintendoDs.png" alt="NDS">
+        <img src="Imagenes/Wii.png" alt="NWII">
+    </div>
+    <div class="cuadrocontactos">
+        <h2>Contacto: </h2>
+        <p>Nombre: </p>
+        <textarea name="Nombre" id="nombre"></textarea>
+        <p>Apellido: </p>
+        <textarea name="Apellido" id="apellido"></textarea>
+        <p>Numero Telefonico: </p>
+        <textarea name="NumTelefonico" id="numtelefonico"></textarea>
+        <p>Correo ELectronico: </p>
+        <textarea name="CorreoElectronico" id="correoelectronico"></textarea>
+        <p>Opinion o Sugerencia: </p>
+        <textarea name="OpSug" id="opsug"></textarea>
+        <main>
+        <button id="dynamicButton">Haz clic aquí</button>
+        <p id="dynamicText"></p>
+    </main>
+    </div>
+</body>
+
+<script src="scripbuton.js"></script>
+
+</html>
