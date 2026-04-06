@@ -17,14 +17,23 @@
 
     <div class="cuadro">
         <h2>Trailers de Antaño</h2>
-
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-        <video autoplay muted loop src="Videos/MarioGalaxy.mp4"></video>
-        <video autoplay muted loop src="Videos/DonkeyKong.mp4"></video>
-
+        <div class="cuadro-trailer">
+            <div class="trailers">
+                <h4>Pokemon HeartGold NDS</h4>
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="trailers">
+                <H4>Super Mario Galaxy WII</H4>
+                <video autoplay muted loop src="Videos/MarioGalaxy.mp4"></video>
+            </div>
+            <div class="trailers">
+                <h4>Donkey Kong N64</h4>
+                <video autoplay muted loop src="Videos/DonkeyKong.mp4"></video>
+            </div>
+        </div>
     </div>
     <div class="cuadro">
         <h2>Nuestros Productos</h2>
@@ -45,10 +54,17 @@
         <p>Opinion o Sugerencia: </p>
         <textarea name="OpSug" id="opsug"></textarea>
         <main>
-        <button id="dynamicButton">Haz clic aquí</button>
-        <p id="dynamicText"></p>
-    </main>
+            <button id="dynamicButton">Enviar</button>
+            <p id="dynamicText"></p>
+        </main>
     </div>
+    <hr>
+    <footer>
+        <div class="footercontenido">
+            <p>RetroArcade</p>
+            <p><a href="mailto:hege@example.com">RetroArcadeSur@empresa.com</a></p>
+        </div>
+    </footer>
 </body>
 
 <script src="scripbuton.js"></script>

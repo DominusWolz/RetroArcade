@@ -13,24 +13,39 @@
         background-position: center;
         background-repeat: repeat;
     }
-    .mensaje {
-  display: flex;              /* activa flexbox */
-  justify-content: center;    /* centra horizontalmente */
-  align-items: center;        /* centra verticalmente */
-  height: 100vh;              /* ocupa toda la altura de la ventana */
-  text-align: center;         /* centra el texto dentro */
-}
 
-.mensaje h1 {
-  font-size: 48px;            /* agranda la letra */
-  color: white;               /* color del texto */
-}
+    .mensaje {
+        display: flex;
+        /* activa flexbox */
+        flex-direction: column;
+        justify-content: center;
+        /* centra horizontalmente */
+        align-items: center;
+        /* centra verticalmente */
+        height: 100vh;
+        /* ocupa toda la altura de la ventana */
+        text-align: center;
+        /* centra el texto dentro */
+    }
+
+    .mensaje h1 {
+        font-size: 48px;
+        /* agranda la letra */
+        color: white;
+        /* color del texto */
+    }
 </style>
 
 <body>
     <div class="mensaje">
-    <h1> Gracias Por su Opinion o Sugerencia </h1>
+        <h1> Gracias Por su Opinion o Sugerencia </h1>
+        <main>
+            <button id="volver">Volver a la Pagina Anterior</button>
+        </main>
     </div>
+
 </body>
+
+<script src="scripvolver.js"></script>
 
 </html>
